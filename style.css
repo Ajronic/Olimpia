@@ -1,0 +1,102 @@
+body {
+  background-color: #ec8889;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  height: 95vh;
+  padding: 10px;
+  margin: auto;
+}
+
+.left {
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+  min-height: 300px;
+}
+
+.bio {
+width: 300px;
+text-align: justify;
+}
+
+#name {
+  color:#ec8889;
+}
+
+.right {
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  max-width: 350px;
+  min-height: 300px;
+}
+
+
+#circular-image {
+  width: 100%;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 2px;
+  margin-top: 30px;
+}
+
+.social {
+  width: 30px;
+  display: block;
+  padding: 10px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #ec8889;
+}
+
+button {
+  position: center;
+  background-color: #ec8889;
+  border:none;
+  border-radius:5px;
+  min-height:30px; 
+  min-width: 150px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: relative;
+  left: 50px;
+}
+
+.mobile-first-component {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+   .mobile-first-component {
+      width: 50%;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .mobile-first-component {
+      width: 33%;
+   }
+}
