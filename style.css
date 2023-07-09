@@ -89,14 +89,13 @@ button {
   width: 100%;
 }
 
-@media screen and (min-width: 992px) {
-   .mobile-first-component {
-      width: 50%;
-   }
-}
-
-@media screen and (min-width: 1200px) {
-   .mobile-first-component {
-      width: 33%;
-   }
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .container {
+    width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+  }
+  .left, .right {
+    width: 100%;
+  }
 }
