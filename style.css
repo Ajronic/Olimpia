@@ -97,5 +97,6 @@ button {
   }
   .left, .right, #circular-image {
     width: 90%;
+    flex-direction: column;
   }
 }
